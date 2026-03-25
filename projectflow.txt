@@ -1,0 +1,10 @@
+Building pipeline :
+1> create a github repo and clone it in local (add experiments)
+2> add src folder along with all components (and run them individually)
+3> add data, models, reports directories to .gitignore file
+4> now git add, commit, push 
+
+setting up dvc pipeline 
+5>create dvc.yaml file and add stages to it 
+6> dvc init then do dvc repro to test the pipeline automation. <check dvc dag>
+7> now git add, commit, push 

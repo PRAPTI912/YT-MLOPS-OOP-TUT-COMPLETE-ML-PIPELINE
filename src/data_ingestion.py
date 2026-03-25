@@ -29,6 +29,7 @@ logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
 def load_params(params_path: str) -> dict:
+    """Function to read params.yaml"""
     """Load parameters from a YAML file."""
     try:
         with open(params_path, 'r') as file:
